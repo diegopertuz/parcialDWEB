@@ -1,0 +1,32 @@
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      var opcion=prompt("digite 1 para los positivos / 2 para los negativos")
+      
+      if(opcion==1){
+    for(let i=1;i<=10;i++){
+      var num = parseInt(prompt("digite el numero "+i));
+      sumap=num+num+num+num+num+num+num+num+num+num;
+    }
+    alert("la suma total es"+sumap);
+     }else if(opcion==2){
+    for(let i=1;i<=10;i++){
+      var num = parseInt(prompt("digite el numero "+i));
+      multn=num*num*num*num*num*num*num*num*num*num;
+      }
+      alert("la multiplicacion total es"+multn);
+     }else{
+       alert("digite opcion 1 o 2¡¡");
+     }
+  
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    alert("digite 1 para el area del circulo----digite 2 para el area del rectangulo----digite 3 para el area del triangulo");
+    var opcion = prompt("digite opcion");
+    if (opcion==1){
+     var radio = prompt("digite el radio del circulo");
+     area = Math.PI*Math.pow(radio,2);
+     alert("el area del circulo es"+area);
+    }else if(opcion==2){
+     var base = prompt("digite la base del rectangulo");
+     var altura = prompt("digite la altura del rectangulo");
+     area = base*altura;
+     alert("el area es"+area);
+    }else if(opcion==3){
+     var base = prompt("digite la base del rectangulo");
+     var altura = prompt("digite la altura del rectangulo");
+     area = (base*altura)/2;
+     alert("el area es"+area);
+    }else{
+        alert("digite una opcion¡¡")
+    }
+    </script>
+</body>
+</html>
